@@ -9,4 +9,5 @@ async def root():
     personal_message = get_personal_message()
     return {
         "message": personal_message
+
     }
